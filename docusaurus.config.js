@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://user-images.githubusercontent.com/29240392/138798545-210a25cb-ad78-41be-a0a3-e3086e1390eb.png',
   organizationName: 'mrxbox98', // Usually your GitHub org/user name.
   projectName: 'Jast', // Usually your repo name.
 
@@ -26,12 +26,7 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/mrxbox98/JastDocs/edit/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        },
+        
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -45,8 +40,8 @@ const config = {
       navbar: {
         title: 'Jast',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Jast',
+          src: 'https://user-images.githubusercontent.com/29240392/138798545-210a25cb-ad78-41be-a0a3-e3086e1390eb.png',
         },
         items: [
           {
@@ -55,7 +50,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/mrxbox98/Jast',
             label: 'GitHub',
